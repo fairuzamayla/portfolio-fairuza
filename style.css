@@ -777,3 +777,128 @@ footer{
     background:#ec4899;
 
 }
+
+/* =======================================
+   RESPONSIVE MOBILE
+======================================= */
+@media (max-width: 768px){
+
+    /* Navbar */
+    .navbar{
+        padding:12px 0;
+    }
+
+    .navbar-brand{
+        font-size:2rem;
+    }
+
+    .navbar-collapse{
+        background:#2563eb;
+        margin-top:15px;
+        border-radius:15px;
+        padding:20px;
+        text-align:center;
+    }
+
+    .nav-link{
+        margin:12px 0 !important;
+        font-size:18px;
+    }
+
+    #darkModeToggle{
+        margin-top:15px;
+        width:100%;
+    }
+
+    /* Hero */
+    .hero{
+        text-align:center;
+        padding-top:130px;
+        min-height:auto;
+    }
+
+    .hero .row{
+        flex-direction:column-reverse;
+    }
+
+    .hero h4{
+        font-size:30px;
+    }
+
+    .hero h1{
+        font-size:3.2rem;
+        line-height:1.15;
+    }
+
+    .hero h3{
+        font-size:1.7rem;
+        min-height:45px;
+    }
+
+    .hero p{
+        font-size:18px;
+        line-height:1.8;
+    }
+
+    .hero-img{
+        width:250px;
+        margin-bottom:35px;
+    }
+
+    .hero .btn{
+        width:180px;
+        margin:auto;
+    }
+
+    /* About */
+    #about{
+        text-align:center;
+    }
+
+    .about-photo{
+        width:260px;
+        height:330px;
+        margin:0 auto 30px;
+    }
+
+    .about-text{
+        text-align:justify;
+    }
+
+    /* Skills */
+    .skill-card{
+        flex-direction:column;
+        text-align:center;
+        padding:20px 15px;
+    }
+
+    .skill-logo{
+        width:55px;
+        height:55px;
+    }
+
+    /* Project */
+    .card{
+        margin-bottom:25px;
+    }
+
+    .card img{
+        height:190px;
+    }
+
+    /* Contact */
+    .social-icons{
+        gap:15px;
+    }
+
+    .social-card{
+        width:60px;
+        height:60px;
+        font-size:28px;
+    }
+
+    /* Semua judul */
+    section h2{
+        font-size:34px;
+    }
+}
