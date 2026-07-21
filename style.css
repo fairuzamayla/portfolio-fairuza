@@ -804,7 +804,7 @@ footer{
 /* =======================================
    RESPONSIVE MOBILE
 ======================================= */
-@media (max-width: 7689x){
+@media (max-width: 768x){
 
     /* Navbar */
     .navbar{
@@ -822,6 +822,11 @@ footer{
         padding:20px;
         text-align:center;
     }
+    .navbar .container,
+.hero .container{
+    max-width:1320px;
+    width:100%;
+}
 
     .nav-link{
         margin:12px 0 !important;
