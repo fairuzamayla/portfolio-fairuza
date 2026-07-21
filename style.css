@@ -37,6 +37,7 @@ body{
 
 .nav-link:hover{
     color:#ffc107 !important;
+     box-shadow:0 50px 40px rgba(255, 253, 123, 0.5);
 }
 
 .navbar{
@@ -196,7 +197,7 @@ section p{
 
 .about-subtitle{
 
-    color:#111011;
+    color:#e9ff6c;
 
     font-weight:700;
 
@@ -566,42 +567,89 @@ footer{
 }
 
 ::-webkit-scrollbar-track{
-    background:#881b1b;
+    background:#0a3bc4;
 }
 
 ::-webkit-scrollbar-thumb{
-    background:#0d6efd;
+    background:#edf03c;
     border-radius:20px;
 }
 
 ::-webkit-scrollbar-thumb:hover{
-    background:#084298;
+    background:#4069a7;
 }
 
 
-/* ===========================
-   DARK MODE
-=========================== */
 
-/* ===========================
-   DARK MODE
-=========================== */
+
+/*darkmode*/
 
 .dark-mode{
     background:#0b1120;
     color:#fff;
 }
 
-/* Semua Section */
-.dark-mode .hero,
+/* ===========================
+   Navbar
+=========================== */
 
+
+
+.dark .navbar-brand{
+    font-size:28px;
+    color:#093157 !important;
+}
+
+.nav-link{
+    color:#fff !important;
+    margin-left:20px;
+    transition:.3s;
+    font-weight:500;
+}
+
+.nav-link:hover{
+    color:#ffc107 !important;
+     box-shadow:0 50px 40px rgba(255, 253, 123, 0.5);
+}
+
+.navbar{
+    background:#395cf5;
+    padding:20px 0;
+}
+
+.navbar-nav .nav-link{
+    color:#0c0c0c;
+    margin-left:25px;
+    font-weight:500;
+}
+
+.navbar-nav .nav-link:hover{
+    color:#f876d1;
+}
+
+.navbar-brand{
+    font-size:28px;
+    font-weight:700;
+}
+
+.btn-primary{
+    border-radius:50px;
+    padding:10px 25px;
+}
+
+/* Semua Section */
+.dark-mode .hero h3{
+    color:#8c7bc7;
+    margin:20px 0;
+}
+.dark-mode .hero,
 .dark-mode #about,
 .dark-mode #skills,
 .dark-mode #projects,
 .dark-mode #Blog,
 .dark-mode #contact{
 
-    background:linear-gradient(135deg,#0f172a,#1e293b);
+    background:linear-gradient(135deg,#1e3a7a,#1e293b);
 
     color:white;
 
@@ -637,6 +685,22 @@ footer{
     background:#111827 !important;
 
 }
+
+
+.dark-mode .nav-link{
+    color:#98b5f1 !important;
+    margin-left:20px;
+    transition:.3s;
+    font-weight:500;
+}
+
+.dark-mode .nav-link:hover{
+    color:#0e44a8 !important;
+     box-shadow:0 50px 40px rgba(74, 130, 235, 0.5);
+}
+
+ 
+
 
 /* Card Project */
 
@@ -901,4 +965,20 @@ footer{
     section h2{
         font-size:34px;
     }
+    .skill-card{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.progress{
+    width:100%;
+    margin-top:10px;
+}
+
+.skill-percent{
+    margin-top:10px;
+    text-align:center;
+}
+
 }

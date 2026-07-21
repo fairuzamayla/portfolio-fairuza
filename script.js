@@ -140,6 +140,7 @@ const aboutImages = [
     "gambar/fairuza.jpeg",
     "gambar/fairuza1.jpeg",
     "gambar/fairuza2.jpeg",
+    "gambar/fairuza3.jpeg",
     
 ];
 
