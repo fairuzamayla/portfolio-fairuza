@@ -146,19 +146,7 @@ const aboutImages = [
 
 let currentImage = 0;
 
-function changeAboutImage(){
 
-    currentImage++;
-
-    if(currentImage >= aboutImages.length){
-        currentImage = 0;
-    }
-
-    document.getElementById("aboutImage").src = aboutImages[currentImage];
-
-}
-
-setInterval(changeAboutImage, 3000);
 
 
 const aboutImg = document.getElementById("aboutImage");
